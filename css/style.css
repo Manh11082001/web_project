@@ -160,16 +160,17 @@ input[type="number"] {
 }
 .login {
   background: rgba(0, 0, 0, 0) url("../images/gradient_light-1.png") repeat-x scroll 0 0;
-  border: 1px solid #cecece;
+  border: 1px solid #C0C0C0;
   box-sizing: border-box;
-  color: #444;
+  color: #00FFFF;
   display: block;
   float: left;
-  font-size: 27px;
-  height: 38px;
+  font-size: 28px;
+  height: 36px;
   margin-left: 10px;
   text-align: center;
   width: 144px;
+  border-radius: 10px;
 }
 .login a {
 	color:#333;
@@ -177,26 +178,30 @@ input[type="number"] {
 /*** Login ***/
 .register_account h3,.login_panel h3{
 	font-size: 22px;
-	color: #6C6C6C;
+	color: #363.636;
 	font-family: 'Monda', sans-serif;
 	padding-bottom:.4em;
 }
 .register_account {
-  background: #fff none repeat scroll 0 0;
-  border: 1px solid #c0bebe;
+  background: #fdf0f1 none repeat scroll 0 0;
+  border: 1px solid #fdf0f1;
   border-radius: 3px;
   float: left;
   height: 284px;
   padding: 20px;
   width: 712px;
+  border-radius: 10px;
+  text-align: center;
 }
 .register_account form input[type="text"],.register_account form select{
 	font-size:12px;
 	color:#B3B1B1;
-	padding:8px;
+	padding:10px;
 	outline:none;
 	margin:5px 0;
 	width:340px;
+	border-radius: 10px;
+	border: none;
 }
 .register_account form select{
 	width:360px;
@@ -216,33 +221,39 @@ input[type="number"] {
 	color:#666;
 }
 .search{
-	float:left;
-	margin-top:3px;
+	/* float:left; */
+	margin-top:25px;
+	text-align: center;
 }
 
 .login_panel{
-	float:left;
+	float: left;
 	width: 245px;
 	margin-right: 10px;
 	padding:20px;
-	background:#FFF;
+	background:#B9D3EE;
 	border:1px solid #C0BEBE;
     -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+	border-radius:10px;
+	text-align: center;
 }
 .login_panel input[type="text"],.login_panel input[type="password"]{
 	font-size:12px;
-	color:#B3B1B1;
-	padding:8px;
+	color:#2F4F4F;
+	padding:0 5px;
 	outline:none;
 	margin:6px 0;
-	width:92%;
+	width:95%;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
 }
 .login_panel form{
 	margin:15px 0;
 }
 .login_panel p{
 	font-size:12px;
-	color:#888;
+	color:#2F4F4F;
 }
 p.terms{
 	float:left;
@@ -287,9 +298,10 @@ p.note{
         background        : linear-gradient(top,  #3f4040 0%,#303131 100%);
         filter            : progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4040', endColorstr='#303131',GradientType=0 );
         text-shadow       : 0 1px 0 rgba(0, 0, 0, 0.4);
+		border-radius	  : 10px;
 }
  button.grey:hover,.search button.grey:hover{
-	        border            : 1px solid #303030;
+	        border            : 1px solid #525252;
         background        : #525252;
         background        : -moz-linear-gradient(top,  #525252 0%, #454646 100%);
         background        : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#525252), color-stop(100%,#454646));
